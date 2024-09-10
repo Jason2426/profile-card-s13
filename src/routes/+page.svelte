@@ -1,6 +1,7 @@
 
 <script>
     import '../styles/global.css'
+    import '../styles/fonts.css'
     import Description from '../lib/components/Description.svelte';
     import Link from '../lib/components/Links.svelte';
     /** @type {import('./$types').PageData} */
@@ -10,10 +11,13 @@
 
 <main>
     <section class="about-me">
-        <h1>Jason Wong, Poey Yie <strong>[王培宜]</strong></h1>
+        <div>
+            <h1>Jason Wong, Poey Yie <strong>[王培宜]</strong></h1>
+            <span style="display:none;">[1]</span>
+        </div>
         <div class="description-layout">
             <Description
-                label="I’m a junior UX/UI designer , and currently diving into front-end development to broaden my creative skills. I’m passionate about design, deeply inspired by creative developers, aspiring to become one myself one day."
+                label="I’m a junior UX/UI designer, and currently diving into front-end development to broaden my creative skills. I’m passionate about design, deeply inspired by creative developers, aspiring to become one myself one day."
             />
             <Description
                 label="I love traveling to new places, as it fuels my curiosity and inspires my creativity in both design and life."
@@ -70,7 +74,7 @@
             </ul>
         </section>
     </section>
-    <section>
+    <section class="coming-soon">
         <p>Portfolio Coming Soon</p>
     </section>
 </main>
