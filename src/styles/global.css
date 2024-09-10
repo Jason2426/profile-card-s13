@@ -37,10 +37,6 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 @font-face {
     font-family: "Keania-One";
@@ -55,7 +51,23 @@ table {
     src: url(static/fonts/Arimo-VariableFont_wght-ttf);
 }
 
-h1 {
-    
+body{
+	background-color: #0F0F0F;
+	color: #FFFFFF;
 }
+
+h1 {
+	font-size: 1.25em;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+strong {
+	color: #DEAC17;
+}
+
+h3{
+	font-size: 1.125em;
+}
+
+
 

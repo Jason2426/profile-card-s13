@@ -21,7 +21,10 @@
         </div>
     </section>
     <section class="contact-and-others">
-        <h3>[Contact]</h3>
+        <div>
+            <h3>[Contact]</h3>
+            <span>[2]</span>
+        </div>
         <section class="contact">
             <ul>
                 <Link
@@ -43,7 +46,10 @@
             </ul>
         </section>
         <section class="others">
-            <h3>[Others]</h3>
+            <div>
+                <h3>[Others]</h3>
+                <span>[3]</span>
+            </div>
             <ul>
                 <Link
                 label="Github"
@@ -65,7 +71,7 @@
         </section>
     </section>
     <section>
-        <span>Portfolio Coming Soon</span>
+        <p>Portfolio Coming Soon</p>
     </section>
 </main>
 
