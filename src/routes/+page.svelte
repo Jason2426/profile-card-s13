@@ -1,5 +1,6 @@
 
 <script>
+    import '../styles/global.css'
     /** @type {import('./$types').PageData} */
     // export let data;
 
@@ -7,7 +8,9 @@
 
 <main>
     <section>
+        <h1>Test</h1>
 
+        <p>Testing the text font</p>
     </section>
 </main>
 
