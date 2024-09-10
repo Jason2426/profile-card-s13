@@ -27,7 +27,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: square;
 }
 blockquote, q {
 	quotes: none;
@@ -38,19 +38,6 @@ q:before, q:after {
 	content: none;
 }
 
-@font-face {
-    font-family: "Keania-One";
-    src: url(./fonts/KeaniaOne-rttf);
-}
-@font-face {
-    font-family: 'Arimo';
-    src: url(static/fonts/Arimo-Italic-VariableFont_wght-ttf);
-}
-@font-face {
-    font-family: 'Arimo-Italic';
-    src: url(static/fonts/Arimo-VariableFont_wght-ttf);
-}
-
 body{
 	background-color: #0F0F0F;
 	color: #FFFFFF;
@@ -58,16 +45,27 @@ body{
 
 h1 {
 	font-size: 1.25em;
-	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+	font-family: 'Inter', sans-serif;
 }
 
 strong {
+	font-family: Keania;
 	color: #DEAC17;
 }
 
-h3{
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.125em;
+	font-weight: bolder;
 }
+
+.coming-soon p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.125em;
+	font-weight: bolder;
+	color: #2D2D2D;
+}
+
 
 
 

@@ -1,0 +1,14 @@
+/* Font families */ 
+
+@font-face {
+    font-family: Keania;
+    src: url(./fonts/KeaniaOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Arimo";
+    src: url(./fonts/Arimo.ttf);
+}
+@font-face {
+    font-family: "Arimo-Italic";
+    src: url(./fonts/Arimo-Italic.ttf);
+}
