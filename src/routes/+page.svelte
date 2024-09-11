@@ -71,7 +71,7 @@
             />
             <Link
                 label="Skincare routine"
-                href="/"
+                href="https://i.ytimg.com/vi/A-R8WABJRWU/maxresdefault.jpg"
             />
             </ul>
         </section>
