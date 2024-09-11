@@ -66,6 +66,82 @@ h3 {
 	color: #2D2D2D;
 }
 
+main {
+	margin: 5em 3em 2em 3em;
+}
+
+
+div {
+	display: flex;
+	justify-content: space-between;
+}
+
+hr {
+	border: 1px solid #1F1F1F;
+	margin: 1.5em 0em 1.5em 0em;
+}
+
+span:nth-child(0){
+	display: none;
+}
+
+span {
+	color : #676666;
+}
+
+li {
+	text-align: left;
+	margin-left: 0.75em;
+}
+.others-list {
+	li:nth-child(1)::marker {
+		color: #2D424F;
+	  }
+	  li:nth-child(2)::marker {
+		color: #1CD761;
+	  }
+	  li:nth-child(3)::marker {
+		color: #FF3D0D;
+	  }
+	  li:nth-child(4)::marker {
+		color: #DEAC17;
+	  }
+}
+
+a {
+	display: flex;
+	justify-content: space-between;
+	margin-top: .5em;
+}
+
+.contact {
+	margin-bottom: 1.5em;
+}
+
+.contact-and-others {
+	display: flex;
+	flex-direction: column;
+
+	.section-title {
+		margin-bottom: 1em;
+	}
+}
+
+.description-layout{
+	margin-top: 1em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+@media (min-width: 900px) {
+	body {
+		
+	}
+}
+
+
+
 
 
 

@@ -11,9 +11,9 @@
 
 <main>
     <section class="about-me">
-        <div>
+        <div class="imp-info">
             <h1>Jason Wong, Poey Yie <strong>[王培宜]</strong></h1>
-            <span style="display:none;">[1]</span>
+            <span>[1]</span>
         </div>
         <div class="description-layout">
             <Description
@@ -24,14 +24,14 @@
             />
         </div>
     </section>
+    <hr>
     <section class="contact-and-others">
-        <div>
-            <h3>[Contact]</h3>
-            <span>[2]</span>
-        </div>
         <section class="contact">
+            <div class="section-title">
+                <h3>[Contact]</h3>
+                <span>[2]</span>
+            </div>
             <ul>
-        
                 <Link
                     label="LinkedIn"
                     href="https://www.linkedin.com/in/jason-wong-24b37b243/"
@@ -50,15 +50,13 @@
                     url="./img/1"
                 />
             </ul>
-
-            
         </section>
         <section class="others">
-            <div>
+            <div class="section-title">
                 <h3>[Others]</h3>
                 <span>[3]</span>
             </div>
-            <ul>
+            <ul class="others-list">
                 <Link
                 label="Github"
                 href="https://github.com/Jason2426"
@@ -78,13 +76,8 @@
             </ul>
         </section>
     </section>
-    <section class="coming-soon">
+    <section class="coming-soon" style="display: none;">
         <p>Portfolio Coming Soon</p>
     </section>
 </main>
 
-<!-- {#if data.people}
-    {#each data.people as person}
-        <h1>{person.name}</h1>
-    {/each}
-{/if} -->
