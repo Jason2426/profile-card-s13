@@ -31,6 +31,7 @@
         </div>
         <section class="contact">
             <ul>
+        
                 <Link
                     label="LinkedIn"
                     href="https://www.linkedin.com/in/jason-wong-24b37b243/"
@@ -46,8 +47,11 @@
                 <Link
                     label="Discord"
                     href=""
+                    url="./img/1"
                 />
             </ul>
+
+            
         </section>
         <section class="others">
             <div>
