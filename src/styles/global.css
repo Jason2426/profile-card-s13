@@ -134,9 +134,28 @@ a {
 	gap: 1em;
 }
 
-@media (min-width: 900px) {
-	body {
-		
+
+@media (min-width: 920px) {
+	
+	main {
+		margin: 10em 10em 5em 10em;
+	}
+	.contact-and-others{
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 4em;
+		.contact {
+			width: 50%;
+		}
+		.others {
+			width: 50%;
+		}
+	}
+}
+
+@media (min-width: 1020px) {
+	main {
+		margin: 15em 15em 5em 15em;
 	}
 }
 
