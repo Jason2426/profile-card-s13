@@ -4,15 +4,14 @@
     import '../styles/fonts.css'
     import Description from '../lib/components/Description.svelte';
     import Link from '../lib/components/Links.svelte';
-    /** @type {import('./$types').PageData} */
-    // export let data;
+    export let data;
 
 </script>
 
 <main>
     <section class="about-me">
         <div class="imp-info">
-            <h1>Jason Wong, Poey Yie <strong>[王培宜]</strong></h1>
+            <h1>{data.person.name} {data.person.surname}, Poey Yie <strong>[王培宜]</strong></h1>
             <span>[1]</span>
         </div>
         <div class="description-layout">
