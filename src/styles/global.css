@@ -159,6 +159,12 @@ a {
 	}
 }
 
+@media (min-width: 1440px) {
+	main {
+		margin: 15em 25em 5em 25em;
+	}
+}
+
 
 
 
