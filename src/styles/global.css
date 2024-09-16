@@ -37,7 +37,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-
+	
 body{
 	background-color: #0F0F0F;
 	color: #FFFFFF;
@@ -80,6 +80,7 @@ hr {
 	border: 1px solid #1F1F1F;
 	margin: 1.5em 0em 1.5em 0em;
 }
+
 
 span:nth-child(0){
 	display: none;
@@ -135,6 +136,7 @@ a {
 }
 
 
+
 @media (min-width: 920px) {
 	
 	main {
@@ -165,6 +167,21 @@ a {
 	}
 }
 
+@media (prefers-color-scheme: light){
+	body {
+		background-color: #ececec;
+		color: #0F0F0F;
+	}
+
+	hr {
+		border: 1px solid #d3d2d2;
+	}
+
+	svg path {
+		fill: #0F0F0F;
+	}
+
+}
 
 
 
